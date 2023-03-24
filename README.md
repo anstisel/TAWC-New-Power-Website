@@ -4,7 +4,7 @@ By Elisha Anstiss, Benedyct Liew, Esther Lee, Jiahao Liang, Sean Sutton and Soha
 
 Please read Installation Guide for information on how to open this project. 
 In short:
-Git clone to computer
+Git clone to computer \n
 have python3 installed (test by terminal: python3 --version)
 have node.js installed (test by terminal: node -v)
 have npm installed (for use of vue software) (test by terminal: npm -v)
