@@ -1,8 +1,42 @@
 # CITS3200
 New Power Forum Website
+By Elisha Anstiss, Benedyct Liew, Esther Lee, Jiahao Liang, Sean Sutton and Sohail Kharrazi
 
-In development Create an issue with a description then create a branch on that issue and devlop in there. Merge once finished.
-
+Please read Installation Guide for information on how to open this project. 
+In short:
+Git clone to computer
+have python3 installed (test by terminal: python3 --version)
+have node.js installed (test by terminal: node -v)
+have npm installed (for use of vue software) (test by terminal: npm -v)
+In terminal (inside TAWC-New-Power folder):
+  LINUX:
+    cd backend
+    python3 -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    python3 -m populate_db
+    flask run
+  WINDOWS: 
+    cd backend
+    python -m venv venv
+    venv/Scripts/activate
+    pip install -r requirements.txt
+    python -m populate_db.py
+    flask run
+In NEW terminal (inside TAWC-New-Power folder):
+  cd frontend
+  npm install
+  npm run dev
+ 
+click on the Local host URL provided (likely "http://localhost:5001")
+Play around with the website. 
+ Submit posts and comments and watch them be posted to one's profile page. 
+Login as an admin using: 
+  Email: admin@coolmail.com
+  Password: Th3_B0ss
+Admin can approve or reject posts, once having done so you can see how the posts are pushed to the discussion board so other users can view and interact with the posts. 
+ 
+-----------------------------------------------------------------------------------
 # Running Tests
 
 Selenium test is in the testing folder. These testing will use geckodriver which is for firefox. To run the tests you will need to 
