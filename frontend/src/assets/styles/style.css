@@ -1,0 +1,198 @@
+/*css page for the top navigation bar*/
+body {
+    background-color: #edf4f6;
+    margin: 0%;
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px 0px 10px 0px;
+    font-family: "Raleway", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    font-family: "Raleway", sans-serif;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: "Raleway", sans-serif;
+}
+
+/* Add background color to the top navigation */
+.topnav {
+    background-color: rgba(35, 47, 82, 0.901);
+}
+
+.topnav a:not(.dropdown-item) {
+    color: #f2f2f2;
+}
+
+.topnav a {
+    font-size: 125%;
+    text-decoration: none;
+}
+
+/* Change the color of hovered links */
+.topnav a:not(.navbar-brand):hover {
+    background-color: rgb(249, 174, 66);
+    color: white;
+}
+
+/* Change the color of active links */
+.topnav .router-link-active:not(.navbar-brand) {
+    background-color: rgb(231, 88, 88);
+    color: white;
+}
+
+.topnav .nav-link {
+    padding: 30px;
+}
+
+.topnav .navbar-brand {
+    padding:17px
+}
+
+.topnav .nav-link-custom {
+    color: #f2f2f2;
+    font-size: 125%;
+    text-decoration: none;
+}
+
+.topnav .nav-link-custom:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.space {
+    justify-content: space-between;
+    
+}
+#post-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.53);
+  }
+
+.tabs.discussiontabs .nav-tabs .nav-link.active {
+    background-color: rgba(35, 47, 82, 0.901);
+    color: white;
+}
+
+.tabs.tabs.discussiontabs .nav-tabs {
+    font-size: x-large;
+    padding: 40px 0px 0px 0px;
+}
+
+/* Tabs in Comment section */
+.nav-tabs {
+    font-size: large;
+}
+
+/* Home page title box colour */
+#title-text {
+    background-color: rgba(35, 47, 82, 0.901);
+}
+
+/* Home page button to discussion board */
+#discussionboard_link{
+    background-color: rgb(249, 174, 66);
+    color: rgba(35, 47, 82, 0.901);
+}
+#discussionboard_link:hover {
+    transform: scale(1.1) perspective(1px);
+    background-color: rgba(35, 47, 82, 0.901);
+    color: white;
+}
+
+/* Home page button to submit a post */
+#submitpost_link {
+    background-color: rgb(249, 174, 66);
+    margin-left: 20px;
+    color: rgba(35, 47, 82, 0.901)
+}
+#submitpost_link:hover {
+    transform: scale(1.1) perspective(1px);
+    background-color: rgba(35, 47, 82, 0.901);
+    color: white;
+}
+.container {
+    outline: 5px line #12417e6a;
+}
+
+/* Title of Discussion board */
+#discussion-title {
+    color:rgb(19, 19, 19);
+    text-align: left;
+    padding: 40px 40px 10px 40px;
+}
+
+/* Subtitle of Discussion board */
+#subtitle {
+    color: grey;
+    padding: 0px 0px 0px 60px;
+    text-align: left;
+}
+
+/* Posts "Go to Post" button */
+#to_post {
+    background-color: rgb(249, 174, 66);
+    border: 2px solid rgb(249, 174, 66);
+    color: #12417e; /* Text Colour */
+    font-weight: 600;
+}
+#to_post:hover {
+    transform: scale(1.05) perspective(1px);
+    background-color: rgba(35, 47, 82, 0.901);
+    color: white;
+    border: 2px solid rgba(35, 47, 82, 0.901);
+
+}
+
+
+.tabs.discussiontabs .tab-pane{
+    border:solid 1px rgba(0, 0, 0, 0.117);
+    border-top: 0;  
+    border-bottom-left-radius: 1%;  
+    border-bottom-right-radius: 1%; 
+}
+
+ /* Profile page image size */
+img {
+    max-width: 100%;
+}
+
+/* Profile page approved status button */
+#approvedstatus {
+    text-align: center;
+    color: white;
+    background-color: rgb(101, 177, 101);
+    border-radius: 8px;
+    padding: 9px ;
+}
+
+/* Profile page unapproved status button */
+#unapprovedstatus {
+    text-align: center;
+    color: white;
+    background-color: rgb(231, 88, 88);
+    border-radius: 8px;
+    padding: 9px ;
+}
+
+/* Profile page waiting status button */
+#waitingstatus {
+    text-align: center;
+    color: white;
+    background-color: rgb(33, 95, 230);
+    border-radius: 8px;
+    padding: 9px ;
+}
+
+/* A Post Header */
+#cardheader {
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}

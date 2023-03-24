@@ -1,0 +1,86 @@
+{"users" : [
+    {
+        "username": "Sean",
+        "user_id": 1
+    },
+    {
+        "username": "Jiahao",
+        "user_id": 2
+    },
+    {
+        "username": "Dominique",
+        "user_id": 3
+    },
+    {
+        "username": "Sohail",
+        "user_id": 4
+    },
+    {
+        "username": "Benedyct",
+        "user_id": 5
+    },
+    {
+        "username": "Elisha",
+        "user_id": 6
+    },
+    {
+        "username": "Esther",
+        "user_id": 7
+    },
+    {
+        "username": "Admin",
+        "user_id": 8,
+        "auth0_id": "auth0|634b6ec6c97b6ba22ae387e9",
+        "admin": true
+    }
+],
+"posts" : [
+    {"creator_id": 1, "title": "Dolphin Surgery", "post_id": 1, "approved": true,
+        "body": "the dolphin needs to survive and thi Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, corporis. Ex expedita laborum architecto fuga? Praesentium quos aliquam porro libero magni consequuntur soluta voluptatem nemo corporis, illum nam maxime alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, corporis. Ex expedita laborum architecto fuga? Praesentium quos aliquam porro libero magni consequuntur soluta voluptatem nemo corporis, illum nam maxime alias.s is important for others to contribute etc etc ect ect etc"},
+    {"creator_id": 2, "title": "Cat Surgery", "post_id": 2, "approved": false, 
+        "body": "cats are an important part of the home ecosystem and they should be protected"},
+    {"creator_id": 2, "title": "Sloth Surgery", "post_id": 3, "approved": false, "admin_msg": "it was a horrible post",
+        "body": "sloths are super slow and the Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, corporis. Ex expedita laborum architecto fuga? Praesentium quos aliquam porro libero magni consequuntur soluta voluptatem nemo corporis, illum nam maxime alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, corporis. Ex expedita laborum architecto fuga? Praesentium quos aliquam porro libero magni consequuntur soluta voluptatem nemo corporis, illum nam maxime alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, corporis. Ex expedita laborum architecto fuga? Praesentium quos aliquam porro libero magni consequuntur soluta voluptatem nemo corporis, illum nam maxime alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, corporis. Ex expedita laborum architecto fuga? Praesentium quos aliquam porro libero magni consequuntur soluta voluptatem nemo corporis, illum nam maxime alias.y need to be faster so lets do something to help that"},
+    {"creator_id": 3, "title": "Rabbit Surgery", "post_id": 4, "approved": true,
+        "body": "harder, better, faster, stronger  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, corporis. Ex expedita laborum architecto fuga? Praesentium quos aliquam porro libero magni consequuntur soluta voluptatem nemo corporis, illum nam maxime alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, corporis. Ex expedita laborum architecto fuga? Praesentium quos aliquam porro libero magni consequuntur soluta voluptatem nemo corporis, illum nam maxime alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, corporis. Ex expedita laborum architecto fuga? Praesentium quos aliquam porro libero magni consequuntur soluta voluptatem nemo corporis, illum nam maxime alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, corporis. Ex expedita laborum architecto fuga? Praesentium quos aliquam porro libero magni consequuntur soluta voluptatem nemo corporis, illum nam maxime alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, corporis. Ex expedita laborum architecto fuga? Praesentium quos aliquam porro libero magni consequuntur soluta voluptatem nemo corporis, illum nam maxime alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, corporis. Ex expedita laborum architecto fuga? Praesentium quos aliquam porro libero magni consequuntur soluta voluptatem nemo corporis, illum nam maxime alias."},
+    {"creator_id": 4, "title": "Pig Surgery", "post_id": 5, "approved": true, 
+        "body": "pigs! pigs! pigs! pigs are pretty cool I think. I like pigs.  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, corporis. Ex expedita laborum architecto fuga? Praesentium quos aliquam porro libero magni consequuntur soluta voluptatem nemo corporis, illum nam maxime alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, corporis. Ex expedita laborum architecto fuga? Praesentium quos aliquam porro libero magni consequuntur soluta voluptatem nemo corporis, illum nam maxime alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, corporis. Ex expedita laborum architecto fuga? Praesentium quos aliquam porro libero magni consequuntur soluta voluptatem nemo corporis, illum nam maxime alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, corporis. Ex expedita laborum architecto fuga? Praesentium quos aliquam porro libero magni consequuntur soluta voluptatem nemo corporis, illum nam maxime alias.", "last_moderate_time": 3 }
+],
+"comments" : [
+    {"comment_id" : 1, "author_id": 4, "post_id": 1, "type" : "solution",
+    "approved": true, "body": "This is a solution."},
+    {"comment_id" : 2, "author_id": 3, "post_id": 1, "type" : "solution",
+    "approved": true, "body": "This is another solution."},
+    {"comment_id" : 3, "author_id": 2, "post_id": 1, "type" : "reply",
+    "approved": true, "body": "This is a reply to the first solution.", "parent_comment_id" : 1},
+    {"comment_id" : 4, "author_id": 1, "post_id": 1, "type" : "reply",
+    "approved": true, "body": "This is another reply for Sohail's solution.", "parent_comment_id" : 1},
+    {"comment_id" : 5, "author_id": 6, "post_id": 1, "type" : "clarification",
+    "approved": true, "body": "Could you please clarify..."},
+    {"comment_id" : 8, "author_id": 6, "post_id": 1, "type" : "other",
+    "approved": true, "body": "Great question! This is an other-type comment."},
+    {"comment_id" : 6, "author_id": 4, "post_id": 1, "type" : "solution",
+    "approved": false, "body": "Unapproved solution"},
+    {"comment_id" : 7, "author_id": 4, "post_id": 1, "type" : "solution",
+    "approved": false, "body": "unapproved sol"},
+    {"comment_id" : 9, "author_id": 4, "post_id": 1, "type" : "reply",
+    "approved": false, "body": "unmoderated reply"},
+    {"comment_id" : 10, "author_id": 4, "post_id": 1, "type" : "clarification",
+    "approved": false, "body": "unmoderated clarif"},
+    {"comment_id" : 11, "author_id": 4, "post_id": 1, "type" : "other",
+    "approved": false, "body": "unmoderated other"}
+],
+"votes" : [
+    {"vote_id" : 1, "comment_id": 1, "user_id": 1},
+    {"vote_id" : 2, "comment_id": 2, "user_id": 1},
+    {"vote_id" : 3, "comment_id": 2, "user_id": 2},
+    {"vote_id" : 4, "comment_id": 3, "user_id": 1},
+    {"vote_id" : 5, "comment_id": 3, "user_id": 2},
+    {"vote_id" : 6, "comment_id": 3, "user_id": 3},
+    {"vote_id" : 7, "comment_id": 4, "user_id": 1},
+    {"vote_id" : 8, "comment_id": 4, "user_id": 2},
+    {"vote_id" : 9, "comment_id": 4, "user_id": 3},
+    {"vote_id" : 10, "comment_id": 4, "user_id": 4},
+    {"vote_id" : 11, "comment_id": 5, "user_id": 1}
+]
+}
