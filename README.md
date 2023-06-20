@@ -21,7 +21,7 @@ In terminal (inside TAWC-New-Power folder):
     python -m venv venv.    
     venv/Scripts/activate.     
     pip install -r requirements.txt.      
-    python -m populate_db.py.    
+    pip install flask
     flask run.     
 In NEW terminal (inside TAWC-New-Power folder):      
   cd frontend.    
