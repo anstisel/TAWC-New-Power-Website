@@ -14,7 +14,7 @@ In terminal (inside TAWC-New-Power folder):
     python3 -m venv venv.    
     source venv/bin/activate.    
     pip install -r requirements.txt.    
-    pip install flask
+    pip install flask.
     flask run.       
   WINDOWS:   
     cd backend.    
